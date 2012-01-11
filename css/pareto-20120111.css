@@ -1,0 +1,5 @@
+.faded { color: rgba(255, 255, 255, 0.3); font-weight: 300 !important; }
+.faded strong { color: white; }
+
+.slide dl, .slide dt { display: inline; }
+.slide dd { padding-left: 1em; font-weight: 300; }
