@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <title>CSSS: A brief introduction</title>
+        <link href="css/slideshow.css" rel="stylesheet" />
+        <link href="css/pareto.css" rel="stylesheet" />
+        <link href="css/pareto-20120111.css" rel="stylesheet" />
+    </head>
+    <body data-duration="30">
+        <header id="intro" class="slide">
+            <hgroup>
+                <h1>De Wow Factor van Plone 4 theming</h1>
+                <p>
+                    Mede mogelijk<br/>
+                    gemaakt<br/>
+                    door Diazo
+                </p>
+            </hgroup>
+            <p class="attribution">Door THijs</p>
+        </header>
+        <section>
+            <header class="slide">
+                <h1>CMS theming</h1>
+            </header>
+            <section class="slide">
+                <h2>Hoe werkt het</h2>
+                <ul>
+                    <li class="delayed">Lappendeken van kleine bestanden</li>
+                    <li class="delayed">Elk lapje heeft html bestand en vul code</li>
+                    <li class="delayed">HTML geeft de pagina inhoud</li>
+                    <li class="delayed">CSS geeft de pagina vorm en kleur</li>
+                </ul><br/>
+                <p class="delayed">Niet alleen Plone, maar ook:</p>
+                <ul>
+                    <li class="delayed">Wordpress</li>
+                    <li class="delayed">Drupal</li>
+                    <li class="delayed">Sharepoint</li>
+                    <li class="delayed">enz.</li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>Gevolgen</h2>
+                <p>Afwijken van de standaard?</p>
+                <ul>
+                    <li class="delayed">Veel bestanden aanpassen</li>
+                    <li class="delayed">Sommige wensen onmogelijk</li>
+                    <li class="delayed">Bij upgrade alle bestanden nalopen</li>
+                </ul>
+                
+                <ul>
+                    <li class="delayed">Je vergeet snel een template</li>
+                    <li class="delayed">Bij een nieuwe Plone alle templates controleren</li>
+                    <li class="delayed">Het afwijken van basis Plone heeft grote investering tot gevolg</li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>Voordelen</h2>
+                <ul>
+                    <li class="delayed">Aanpassing is </li>
+                    <li class="delayed">Bij structurele wijziging heel veel bestanden aanpassen</li>
+                    <li class="delayed">Bestanden uit veel verschillende bronnen <br />(Plone is opgebouwd uit heel veel deelproducten)</li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <section class="slide">
+                <header>
+                    <h1>Nu</h1>
+                </header>
+                <ul>
+                <li class="delayed">&Eacute;&eacute;n HTML website</li>
+                <li class="delayed">&Eacute;&eacute;n bestand met content plaatsingsregels</li>
+                <li class="delayed">Bestanden uit veel verschillende bronnen <br />(Plone is opgebouwd uit heel veel deelproducten)</li>
+                </ul>
+                <p> </p>
+            </section>
+        </section>
+        <section>
+            <header class="slide">
+                <h1>Vroeger</h1>
+            </header>
+            <section class="slide">
+                <h2>Plone theming oude stijl</h2>
+                <ul>
+                    <li class="delayed">Standaard Plone bestanden aanpassen</li>
+                    <li class="delayed">Bij structurele wijziging heel veel bestanden aanpassen</li>
+                    <li class="delayed">Bestanden uit veel verschillende bronnen <br />(Plone is opgebouwd uit heel veel deelproducten)</li>
+                </ul>
+                <h2>Nadelen</h2>
+                <ul>
+                    <li class="delayed">Moeilijk overzicht houden</li>
+                    <li class="delayed">Je vergeet snel een template</li>
+                    <li class="delayed">Bij een nieuwe Plone alle templates controleren</li>
+                    <li class="delayed">Het afwijken van basis Plone heeft grote investering tot gevolg</li>
+                </ul>
+                <h2>Voordelen</h2>
+                <ul>
+                    <li class="delayed">Aanpassing is </li>
+                    <li class="delayed">Bij structurele wijziging heel veel bestanden aanpassen</li>
+                    <li class="delayed">Bestanden uit veel verschillende bronnen <br />(Plone is opgebouwd uit heel veel deelproducten)</li>
+                </ul>
+                <h1>Nu</h1>
+                <ul>
+                <li class="delayed">&Eacute;&eacute;n HTML website</li>
+                <li class="delayed">&Eacute;&eacute;n bestand met content plaatsingsregels</li>
+                <li class="delayed">Bestanden uit veel verschillende bronnen <br />(Plone is opgebouwd uit heel veel deelproducten)</li>
+                </ul>
+                <p> </p>
+            </section>
+            <section class="slide">
+                <h2>HTML is the new HTML5</h2>
+                <p>    Syntax:
+                </p><ul>
+                    <li class="delayed"><code>&lt;!doctype html&gt;</code></li>
+                    <li class="delayed"><code>&lt;meta charset="UTF-8"&gt;</code></li>
+                    <li class="delayed"><dl><dt>Elements:</dt><dd>section, article, aside, hgroup, header, footer, nav, figure, figcaption, video, audio, …</dd></dl></li>
+                    <li class="delayed"><dl><dt>Form</dt><dd>capabilities: tel, search, url, email, datetime, date, month, week, time, datetime-local, number, range, color</dd></dl></li>
+                    <li class="delayed"><strong>New attributes</strong> &amp; <strong>redefined sematics</strong> of Elements</li>
+                    <li class="delayed"><strong>MathML</strong> &amp; <strong>SVG</strong></li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>JavaScript API's</h2>
+                <ul>
+                    <li class="delayed">video and audio</li>
+                    <li class="delayed">offline Web applications</li>
+                    <li class="delayed">editing <em>(contenteditable attribute)</em></li>
+                    <li class="delayed">drag &amp; drop <em>(draggable)</em></li>
+                    <li class="delayed">history</li>
+                    <li class="delayed">geolocation</li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>More info on HTML5</h2>
+                <ul>
+                    <li class="delayed"><a href="http://www.w3.org/TR/html5-diff/">http://www.w3.org/TR/html5-diff/</a></li>
+                    <li class="delayed"><a href="http://www.w3.org/TR/html5/">http://www.w3.org/TR/html5/</a></li>
+                    <li class="delayed"><a href="http://html5doctor.com/">http://html5doctor.com/</a></li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <header class="slide">
+                <h1>CSS3</h1>
+            </header>
+            <section class="slide">
+                <h2>Styling strategies</h2>
+                <p class="delayed">CSS3 support differs per browser</p>
+                <dl>
+                    <dt class="delayed">Several "coping" strategies</dt>
+                    <dd class="delayed">Graceful degradation</dd>
+                    <dd class="delayed">Progressive enhancement</dd>
+                </dl>
+            </section>
+            <section class="slide">
+                <h2>Tools</h2>
+                <ul>
+                    <li class="delayed">
+                        <dl>
+                            <dt>Modernizr</dt>
+                            <dd>Library with CSS and JavaScript hooks for most new API's and CSS3 features</dd>
+                        </dl>
+                    </li>
+                    <li class="delayed">
+                        <dl>
+                            <dt>Selectivizr</dt>
+                            <dd>Library enabling CSS3 selectors for IE6/7</dd>
+                        </dl></li>
+                    <li class="delayed">
+                        <dl>
+                            <dt><a href="http://caniuse.com">caniuse.com</a></dt>
+                            <dd>Compatibility tables for support of HTML5, CSS3, SVG and more in desktop and mobile browsers.</dd>
+                        </dl>
+                    </li>
+                    <li class="delayed">
+                        <dl>
+                            <dt><a href="http://css3pie.com">css3pie.com</a></dt>
+                            <dd>IE6/7 shim for CSS3 features</dd>
+                        </dl>
+                    </li/>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>Modernizr CSS hooks</h2>
+                <p>
+                    js flexbox canvas canvastext webgl no-touch geolocation postmessage 
+                    no-websqldatabase indexeddb hashchange history draganddrop websockets 
+                    rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow 
+                    textshadow opacity cssanimations csscolumns cssgradients no-cssreflections 
+                    csstransforms no-csstransforms3d csstransitions fontface generatedcontent 
+                    video audio localstorage sessionstorage webworkers applicationcache svg 
+                    inlinesvg smil svgclippaths
+                </p>
+            </section>
+            <section class="slide">
+                <h2>Modernizr CSS hooks</h2>
+                <p class="faded">
+                    js flexbox canvas canvastext webgl <strong>no-touch</strong>
+                    geolocation postmessage <strong>no-websqldatabase</strong>
+                    indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs 
+                    backgroundsize borderimage borderradius boxshadow textshadow opacity 
+                    cssanimations csscolumns cssgradients <strong>no-cssreflections</strong>
+                    csstransforms <strong>no-csstransforms3d</strong>
+                    csstransitions fontface generatedcontent video audio localstorage 
+                    sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths
+                </p>
+            </section>
+            <section class="slide">
+                <h2>Modernizr CSS hooks</h2>
+                <p class="faded">
+                    js <strong>flexbox</strong>
+                    canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase 
+                    indexeddb hashchange history draganddrop websockets <strong>rgba hsla multiplebgs 
+                    backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations 
+                    csscolumns cssgradients</strong>
+                    no-<strong>cssreflections csstransforms</strong>
+                    no-<strong>csstransforms3d csstransitions fontface</strong>
+                    generatedcontent video audio localstorage sessionstorage webworkers applicationcache 
+                    svg inlinesvg smil svgclippaths
+                </p>
+            </section>
+            <section class="slide">
+                <h2>Modernizr CSS hooks</h2>
+                <p class="faded">
+                    js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets <strong>rgba</strong>
+                    hsla <strong>multiplebgs</strong>
+                    backgroundsize <strong>borderimage borderradius boxshadow</strong>
+                    textshadow <strong>opacity</strong>
+                    cssanimations csscolumns <strong>cssgradients</strong>
+                    no-cssreflections csstransforms no-csstransforms3d csstransitions <strong>fontface</strong>
+                    generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths
+                </p>
+            </section>
+            <section class="slide">
+                <h2>@font-face</h2>
+                <ul>
+                    <li>
+                        Custom fonts for the web
+                        <ul>
+                            <li class="delayed"><a href="http://www.fontsquirrel.com">fontsquirrel.com</a></li>
+                            <li class="delayed"><a href="http://www.google.com/webfonts">google.com/webfonts</a></li>
+                            <li class="delayed"><a href="http://caniuse.com/#feat=fontface">caniuse.com/#feat=fontface</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>@font-face</h2>
+                <ul>
+                    <li>Bulletproof syntax
+<pre class="delayed">@font-face {
+    font-family: 'Graublau Web';   
+    src: url('GraublauWeb.eot?') format('eot'), 
+    url('GraublauWeb.woff') format('woff'), 
+    url('GraublauWeb.ttf') format('truetype');
+}</pre></li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>border-radius</h2>
+<pre>.rounded-corners {
+    behavior: url("PIE.htc");    /* < IE9 */
+    -moz-border-radius: 20px;    /* Firefox */
+    -webkit-border-radius: 20px; /* Safari, Chrome */
+    border-radius: 20px;         /* CSS3 */
+}</pre>
+                <ul>
+                    <li class="delayed">Works for FireFox, Safari, Chrome, IE9 +</li>
+                    <li class="delayed"><a href="http://ie.microsoft.com/testdrive/html5/borderradius/default.html">ie.microsoft.com/testdrive/html5/borderradius/default.html</a></li>
+                    <li class="delayed"><a href="http://caniuse.com/#feat=border-radius">http://caniuse.com/#feat=border-radius</a></li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>box-shadow</h2>
+<pre>box-shadow: hor  ver  blur offset color side
+            0    0    0    0      #000  outset</pre>
+                <p class="delayed">Bulletproof syntax</p>
+<pre class="delayed">.box-shadow {
+    behavior: url("PIE.htc");                /* < IE9 */
+    -moz-box-shadow: 10px 10px 10px #000;    /* Firefox */
+    -webkit-box-shadow: 10px 10px 10px #000; /* Safari, Chrome */
+    box-shadow: 10px 10px 10px #000;         /* CSS3 */ 
+}</pre>
+            </section>
+            <section class="slide">
+                <h2>box-shadow</h2>
+<pre>box-shadow: -10px -10px 10px 5px rgba(255, 255, 255, 0.75), 
+            15px 15px 10px 10px rgba(255, 255, 255, 0.75) inset, 
+            10px 10px 10px 5px rgba(0, 0, 20, 0.5), 
+            35px 45px 20px rgba(0, 0, 20, 0.4), 
+            -15px -15px 10px 10px rgba(0, 0, 20, 0.7) inset;</pre>
+                <p class="delayed">
+                    <a href="http://thijs.biz">http://thijs.biz</a>
+                </p>
+            </section>
+            <section class="slide">
+                <h2>opacity</h2>
+                <p>Opacity makes the complete box and its children partly transparent</p>
+<pre class="delayed">.see-through {
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    /* IE 5-7 */
+    filter: alpha(opacity=50);
+    /* Good browsers */
+    opacity: 0.7;
+}</pre>
+            </section>
+            <section class="slide">
+                <h2>rgba</h2>
+                <p>rgba defines a color with alpha transparency</p>
+<pre class="delayed">.darkened-background {
+    background: rgb(0, 0, 0);       /* Fallback rgb, use shorthand (IE6/7) */
+    background: rgba(0, 0, 0, 0.3); 
+}</pre>
+            </section>
+            <section class="slide">
+                <h2>multiple backgrounds</h2>
+<pre class="delayed">.multiple-backgrounds {
+    background: url(imgs/sign-border-tl.png) top left no-repeat,
+                url(imgs/sign-border-tr.png) top right no-repeat,
+                url(imgs/sign-border-bl.png) bottom left no-repeat,
+                url(imgs/sign-border-br.png) bottom right no-repeat,
+                url(imgs/sign-bg.png) center repeat;
+}</pre>
+                <ul>
+                    <li class="delayed"><a href="http://www.netmagazine.com/tutorials/get-grips-css3-multiple-background-images">netmagazine.com/tutorials/get-grips-css3-multiple-background-images</a></li>
+                    <li class="delayed"><a href="http://www.netmagazine.com/files/tutorials/demos/2011/11/get-to-grips-with-css3-multiple-background-images/demo/demo.html">netmagazine.com/files/tutorials/demos/2011/11/get-to-grips-with-css3-multiple-background-images/demo/demo.html</a></li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>border-image</h2>
+<pre>.border-image {
+    border-image: url("bg-pawprints-lines.jpg") 45 45 45 45 repeat;
+}</pre>
+                <ul>
+                    <li class="delayed"><a href="http://sitepoint-examples.s3.amazonaws.com/css3-border-image/demos.html">http://sitepoint-examples.s3.amazonaws.com/css3-border-image/demos.html</a></li>
+                    <li class="delayed"><a href="http://www.norabrowndesign.com/css-experiments/border-image-anim.html">http://www.norabrowndesign.com/css-experiments/border-image-anim.html</a></li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>Fun CSS tricks</h2>
+                <ul>
+                    <li class="delayed"><a href="http://css-tricks.com/examples/ShapesOfCSS/">css-tricks.com/examples/ShapesOfCSS</a></li>
+                    <li class="delayed"><a href="http://nicolasgallagher.com/pure-css-gui-icons/">nicolasgallagher.com/pure-css-gui-icons</a></li>
+                    <li class="delayed"><a href="http://lea.verou.me/css3patterns/">lea.verou.me/css3patterns</a></li>
+                    <li class="delayed"><a href="http://dabblet.com">dabblet.com</a><a href="http://dabblet.com/gist/1566916">/gist/1566916</a></li>
+                    <li class="delayed"><a href="http://www.slideshare.net/LeaVerou/css3-secrets-10-things-you-might-not-know-about-css3">10 Things you might not know about CSS3</a></li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <header class="slide">
+                <h1>CSS3 Selectors</h1>
+            </header>
+            <section class="slide">
+                <h2>Structural pseudo classes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Selector</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>E:root</th>
+                            <td>an E element, root of the document</td>
+                        </tr>
+                        <tr>
+                            <th>E:empty</th>
+                            <td>an E element that has no children (including text nodes)</td>
+                        </tr>
+                        <tr>
+                            <th>E:target</th>
+                            <td>an E element being the target of the referring URI</td>
+                        </tr>
+                        <tr>
+                            <th>E:enabled
+                                <br/>
+                                E:disabled</th>
+                            <td>a user interface element E which is enabled or disabled</td>
+                        </tr>
+                        <tr>
+                            <th>E:checked</th>
+                            <td>a user interface element E which is checked<br/>
+                                (for instance a radio-button or checkbox)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="slide">
+                <h2>Structural pseudo classes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Selector</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>E:nth-child(n)</th>
+                            <td>an E element, the n-th child of its parent</td>
+                        </tr>
+                        <tr>
+                            <th>E:nth-last-child(n)</th>
+                            <td>an E element, the n-th child of its parent, 
+                                counting from the last one</td>
+                        </tr>
+                        <tr>
+                            <th>E:nth-of-type(n)</th>
+                            <td>an E element, the n-th sibling of its type</td>
+                        </tr>
+                        <tr>
+                            <th>E:nth-last-of-type(n)</th>
+                            <td>an E element, the n-th sibling of its type, 
+                                <br/>
+                                counting from the last one</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="slide">
+                <h2>Structural pseudo classes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Selector</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>E:first-child</th>
+                            <td>an E element, first child of its parent</td>
+                        </tr>
+                        <tr>
+                            <th>E:last-child</th>
+                            <td>an E element, last child of its parent</td>
+                        </tr>
+                        <tr>
+                            <th>E:first-of-type</th>
+                            <td>an E element, first sibling of its type</td>
+                        </tr>
+                        <tr>
+                            <th>E:last-of-type</th>
+                            <td>an E element, last sibling of its type</td>
+                        </tr>
+                        <tr>
+                            <th>E:only-child</th>
+                            <td>an E element, only child of its parent</td>
+                        </tr>
+                        <tr>
+                            <th>E:only-of-type</th>
+                            <td>an E element, only sibling of its type</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="slide">
+                <h2>Attributes selectors</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Selector</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>E[foo]</th>
+                            <td>an E element with a "foo" attribute</td>
+                        </tr>
+                        <tr>
+                            <th>E[foo="bar"]</th>
+                            <td>an E element whose "foo" attribute value is exactly equal to "bar"</td>
+                        </tr>
+                        <tr>
+                            <th>E[foo~="bar"]</th>
+                            <td>an E element whose "foo" attribute value is a list of<br/>
+                                whitespace-separated values, one of which is exactly equal to "bar"</td>
+                        </tr>
+                        <tr>
+                            <th>E[foo^="bar"]</th>
+                            <td>an E element whose "foo" attribute value begins exactly with the string "bar"</td>
+                        </tr>
+                        <tr>
+                            <th>E[foo$="bar"]</th>
+                            <td>an E element whose "foo" attribute value ends exactly with the string "bar"</td>
+                        </tr>
+                        <tr>
+                            <th>E[foo*="bar"]</th>
+                            <td>an E element whose "foo" attribute value contains the substring "bar"</td>
+                        </tr>
+                        <tr>
+                            <th>E[foo|="en"]</th>
+                            <td>an E element whose "foo" attribute has a hyphen-separated list<br/>
+                                of values beginning (from the left) with "en"</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="slide">
+                <h2>Pseudo elements</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Selector</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>E::first-line</th>
+                            <td>the first formatted line of an E element</td>
+                        </tr>
+                        <tr>
+                            <th>E::first-letter</th>
+                            <td>the first formatted letter of an E element</td>
+                        </tr>
+                        <tr>
+                            <th>E::before</th>
+                            <td>generated content before an E element</td>
+                        </tr>
+                        <tr>
+                            <th>E::after</th>
+                            <td>generated content after an E element</td>
+                        </tr>
+                        <tr>
+                            <th>E:not(s)</th>
+                            <td>an E element that does not match simple selector s</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="slide">
+                <h2>Miscellaneous selectors</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Selector</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>E &gt; F</th>
+                            <td>an F element child of an E element</td>
+                        </tr>
+                        <tr>
+                            <th>E + F</th>
+                            <td>an F element immediately preceded by an E element</td>
+                        </tr>
+                        <tr>
+                            <th>E ~ F</th>
+                            <td>an F element preceded by an E element</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+        <section>
+            <header class="slide">
+                <h1>Compass & Sass</h1>
+            </header>
+            <section class="slide">
+                <h2>Why Compass</h2>
+                <ul>
+                    <li class="delayed">Experience cleaner markup without presentational classes.</li>
+                    <li class="delayed">It’s full of the web’s best reusable patterns.</li>
+                    <li class="delayed">Developing a personal framework is simple.</li>
+                    <li class="delayed">Compass mixins make CSS3 easy.</li>
+                    <li class="delayed">Download and create extensions with ease.</li>
+                </ul>
+            </section>
+
+            </section>
+            <section class="slide">
+            <h2>Compass uses Sass</h2>
+            <p class="delayed">
+                <a href="http://sass-lang.com/">Sass</a> is an extension of CSS3 which adds:
+            </p>
+            <ul>
+                <li class="delayed">nested rules</li>
+                <li class="delayed">variables</li>
+                <li class="delayed">mixins</li>
+                <li class="delayed">selector inheritance</li>
+            </ul>
+            <p class="delayed">
+                Sass generates well formatted CSS and makes your stylesheets
+                easier to organize and maintain.
+            </p>
+        </section>
+        <section>
+            <header class="slide">
+                <h1>Questions?</h1>
+            </header>
+        </section>
+        <footer class="slide" title="The End">
+            <h2>The End</h2>
+            <ul>
+                <li>Presentatie made with <a href="https://github.com/LeaVerou/csss">CSSS</a></li>
+                <li>Also nice framework: <a href="http://lab.hakim.se/reveal-js/#/">reveal.js</a></li>
+            </ul>
+            <ul>
+                <li>Presentation on <a href="http://th-code.github.com/CSSS">http://th-code.github.com/CSSS</a></li>
+                <li>Presentation code on <a href="https://github.com/TH-code/CSSS">https://github.com/TH-code/CSSS</a></li>
+                <li>My site <a href="http://thijs.biz">thijs.biz</a></li>
+            </ul>
+        </footer>
+
+        <script src="js/slideshow.js"></script>
+        <script src="js/prefixfree.min.js"></script>
+        <script src="plugins/css-edit.js"></script>
+        <script src="plugins/css-snippets.js"></script>
+        <script src="plugins/css-controls.js"></script>
+        <script src="plugins/code-highlight.js"></script>
+        <script>
+            var slideshow = new SlideShow();
+
+            var snippets = document.querySelectorAll('.snippet');
+            for (var i = 0; i < snippets.length; i++) {
+                new CSSSnippet(snippets[i]);
+            }
+
+            var cssControls = document.querySelectorAll('.css-control');
+            for (var i = 0; i < cssControls.length; i++) {
+                new CSSControl(cssControls[i]);
+            }
+        </script>
+    </body>
+</html>
+
