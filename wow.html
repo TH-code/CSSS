@@ -18,21 +18,108 @@
                     door Diazo
                 </p>
             </hgroup>
-            <p class="attribution">Door THijs</p>
         </header>
         <section>
             <header class="slide">
                 <h1>CMS theming</h1>
             </header>
             <section class="slide">
-                <h2>Hoe werkt het</h2>
+                <h2>De Basis</h2>
+                <ul class="large">
+                    <li class="delayed">HTML beschrijft de inhoud</li>
+                    <li class="delayed">CSS past de vormgeving toe</li>
+                    <li class="delayed">JavaScript zorgt voor dynamiek</li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>JavaScript</h2>
+                <p class="delayed">
+                    JavaScript is vaak meer bijzaak bij theming.
+                </p>
                 <ul>
-                    <li class="delayed">Lappendeken van kleine bestanden</li>
-                    <li class="delayed">Elk lapje heeft html bestand en vul code</li>
-                    <li class="delayed">HTML geeft de pagina inhoud</li>
-                    <li class="delayed">CSS geeft de pagina vorm en kleur</li>
-                </ul><br/>
-                <p class="delayed">Niet alleen Plone, maar ook:</p>
+                    <li class="delayed">
+                        JavaScript wordt vaak uitgebreid voor visuele gimmicks 
+                        en speciale pagina's.
+                    </li>
+                    <li class="delayed">
+                        Bij theming kun je de CMS JavaScript meestal ongemoeid 
+                        laten <br />
+                        (alleen problemen bij heel drastische HTML aanpassing).
+                    </li>
+                    <li class="delayed">
+                        Het is wel heel belangrijk voor de standaard werking 
+                        van Plone.
+                    </li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>CSS</h2>
+                <p class="delayed">
+                    Voor theming maken HTML en CSS de dienst uit.<br/>
+                    CSS zet de vormgeving op een html pagina, bijvoorbeeld:
+                    Het toekennen van kleur, typography, achtergronden, 
+                    schaduw, enz. 
+                </p>
+                <ul>
+                    <li class="delayed">
+                        De structuur van de HTML heeft veel invloed op wat door 
+                        CSS aan vormgeving mogelijk.
+                    </li>
+                    <li class="delayed">
+                        De CMS JavaScript gaat vaak uit van een bepaalde CSS 
+                        voor het bewerkstelligen van de functionaliteit.
+                    </li>
+                    <li class="delayed">
+                        Vaak wordt een gedeelte van de Plone CSS als basis 
+                        gebruikt om uit te breiden naar een nieuwe vormgeving.
+                    </li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>HTML</h2>
+                <p class="delayed">
+                    De HTML voor een CMS en andere web applicaties wordt 
+                    opgebouwd door middel van veel kleine deelbestanden.
+                    Bij Plone heeft het grootste deel van de deelbestanden 
+                    code om de gedeeltes te vullen met inhoud.
+                </p>
+                <ul>
+                    <li class="delayed">
+                        Theming heeft vaak tot gevolg dat deelbestanden moeten 
+                        aangepast.
+                    </li>
+                    <li class="delayed">
+                        Hoe meer de vormgeving afwijkt van standaard Plone hoe 
+                        meer deelbestanden moeten worden aangepast.
+                    </li>
+                    <li class="delayed">
+                        Vooral structurele aanpassingen in details heeft veel 
+                        impact. <br/>
+                        (bijvoorbeeld andere html voor formulier knoppen, 
+                         datum weergave, details die in veel templates gelijk
+                         moeten worden getrokken)
+                    </li>
+                </ul>
+            </section>
+            <section class="slide">
+                <h2>Plone 3</h2>
+                <img src="img/wow/plone-old.png" class="screenshot" />
+            </section>
+            <section class="slide">
+                <h2>Plone 3 - blokken</h2>
+                <img src="img/wow/plone-old-lines.png" class="screenshot" />
+            </section>
+            <section class="slide">
+                <h2>Plone 4</h2>
+                <img src="img/wow/plone-4.png" class="screenshot" />
+            </section>
+            <section class="slide">
+                <h2>Plone 4 - blokken</h2>
+                <img src="img/wow/plone-4-lines.png" class="screenshot" />
+            </section>
+<!--
+            <section class="slide">
+                <h2>Niet alleen Plone, maar ook:</h2>
                 <ul>
                     <li class="delayed">Wordpress</li>
                     <li class="delayed">Drupal</li>
@@ -40,12 +127,18 @@
                     <li class="delayed">enz.</li>
                 </ul>
             </section>
+  -->
             <section class="slide">
                 <h2>Gevolgen</h2>
-                <p>Afwijken van de standaard?</p>
                 <ul>
-                    <li class="delayed">Veel bestanden aanpassen</li>
-                    <li class="delayed">Sommige wensen onmogelijk</li>
+                    <li class="delayed">
+                        Vormgeving met hoog gehalte aan kritieke details kan 
+                        kostbaar worden. 
+                    </li>
+                    <li class="delayed">
+                        Migraties worden ingewikkelder naar mate er meer 
+                        basis bestanden zijn aangepast.
+                    </li>
                     <li class="delayed">Bij upgrade alle bestanden nalopen</li>
                 </ul>
                 

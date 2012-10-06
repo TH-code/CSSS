@@ -68,6 +68,10 @@ section > header.slide > h1 { position: absolute; top: 50%; left: 0; right: 0; m
 .attribution a { text-decoration: none; }
 .attribution a::after { content: " (" attr(href) ")"; }
 
+.large { font-size: 150%; }
+
+.screenshot { max-height: 80%; min-height: 80%; }
+
 /* Syntax highlighting */
 .comment { color: #999999; }
 
