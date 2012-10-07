@@ -39,8 +39,8 @@ body > header.slide hgroup h1 { color: white; font-size: 150%; border-top: 4rem 
 body > header.slide hgroup p { color: maroon; text-shadow: none !important; border-bottom: 4rem solid white; }
 
 .slide { padding: 0 2.5% 7.5%; background-color: rgba(128, 0, 0, 0.75); background-image: url(../img/pareto-white.svg); background-position: bottom left; background-repeat: no-repeat; background-clip: padding-box; background-size: 20%; text-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.4); color: white; border: 30px solid transparent; }
-.slide h2 { font-family: "Helvetica Neue", Helvetica, sans-serif; font-weight: 300; font-size: 0.75in; text-align: right; }
-.slide p, .slide li { font-weight: bold; letter-spacing: -0.03em; }
+.slide h2 { font-family: "Helvetica Neue", Helvetica, sans-serif; font-weight: bold; font-size: 0.75in; text-align: right; }
+.slide p, .slide li { letter-spacing: -0.03em; font-size: 120%; }
 .slide > ul { list-style: none; }
 .slide ol { margin-left: 2em; }
 .slide > ul ul { margin-left: 2em; list-style: none; }
@@ -68,7 +68,7 @@ section > header.slide > h1 { position: absolute; top: 50%; left: 0; right: 0; m
 .attribution a { text-decoration: none; }
 .attribution a::after { content: " (" attr(href) ")"; }
 
-.large { font-size: 150%; }
+.slide .large { font-size: 150%; }
 
 .screenshot { max-height: 80%; min-height: 80%; }
 

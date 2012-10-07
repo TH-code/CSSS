@@ -119,12 +119,14 @@ body > header.slide
   border: 30px solid transparent
   h2
     font-family: 'Helvetica Neue', Helvetica, sans-serif
-    font-weight: 300
+    font-weight: bold
     font-size: .75in
     text-align: right
   p, li
-    font-weight: bold
+    // font-weight: bold
     letter-spacing: -0.03em
+    font:
+      size: 120%
   > ul
     list-style: none
   ol
@@ -233,7 +235,7 @@ section > header.slide
     &::after
       content: " (" attr(href) ")"
 
-.large
+.slide .large
   font-size: 150%
 
 .screenshot

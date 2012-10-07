@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title>CSSS: A brief introduction</title>
+        <title>De WOW factor van Plone 4 theming</title>
         <link href="css/slideshow.css" rel="stylesheet" />
         <link href="css/pareto.css" rel="stylesheet" />
         <link href="css/pareto-20120111.css" rel="stylesheet" />
@@ -19,6 +19,16 @@
                 </p>
             </hgroup>
         </header>
+        <section class="slide">
+            <h2>Wie ben ik?</h2>
+            <ul class="large">
+                <li class="delayed">Thijs Jonkman</li>
+                <li class="delayed">Lead Plone Developer bij Pareto</li>
+                <li class="delayed">Plone projecten van design t/m implementatie custom functionaliteit</li>
+                <li class="delayed">Front-end specialist</li>
+                <li class="delayed">Web richtlijnen Overheid</li>
+            </ul>
+        </section>
         <section>
             <header class="slide">
                 <h1>CMS theming</h1>
@@ -33,10 +43,10 @@
             </section>
             <section class="slide">
                 <h2>JavaScript</h2>
-                <p class="delayed">
-                    JavaScript is vaak meer bijzaak bij theming.
-                </p>
-                <ul>
+                <ul class="large">
+                    <li class="delayed">
+                        JavaScript is vaak meer bijzaak bij theming.
+                    </li>
                     <li class="delayed">
                         JavaScript wordt vaak uitgebreid voor visuele gimmicks 
                         en speciale pagina's.
@@ -54,13 +64,13 @@
             </section>
             <section class="slide">
                 <h2>CSS</h2>
-                <p class="delayed">
-                    Voor theming maken HTML en CSS de dienst uit.<br/>
-                    CSS zet de vormgeving op een html pagina, bijvoorbeeld:
-                    Het toekennen van kleur, typography, achtergronden, 
-                    schaduw, enz. 
-                </p>
                 <ul>
+                    <li class="delayed">
+                        Voor theming maken HTML en CSS de dienst uit.<br/>
+                        CSS zet de vormgeving op een html pagina, bijvoorbeeld:
+                        Het toekennen van kleur, typography, achtergronden, 
+                        schaduw, enz. 
+                    </li>
                     <li class="delayed">
                         De structuur van de HTML heeft veel invloed op wat door 
                         CSS aan vormgeving mogelijk.
@@ -77,11 +87,11 @@
             </section>
             <section class="slide">
                 <h2>HTML</h2>
-                <p class="delayed">
-                    De HTML voor CMS wordt opgebouwd door middel van veel 
-                    kleine deelbestanden.
-                </p>
                 <ul>
+                    <li class="delayed">
+                        De HTML voor CMS wordt opgebouwd door middel van veel 
+                        kleine deelbestanden.
+                    </li>
                     <li class="delayed">
                         Theming heeft vaak tot gevolg dat deelbestanden moeten 
                         aangepast.
@@ -154,32 +164,26 @@
             </header>
             <section class="slide">
                 <h2>Theming nieuwe stijl</h2>
-                <img style="float: right; height: 80%;" src="img/wow/diazo.png" />
                 <p class="delayed">&Eacute;&eacute;n Plone omgeving</p>
                 <p class="delayed">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+</p>
-                <p class="delayed">&Eacute;&eacute;n vormgegeven HTML pagina</p>
+                <p class="delayed">&Eacute;&eacute;n statische HTML blauwdruk</p>
                 <p class="delayed">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+</p>
                 <p class="delayed">&Eacute;&eacute;n bestand met vulregels</p>
                 <p class="delayed">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</p>
-                <p class="delayed">&Eacute;&eacute;n vormgegeven Plone omgeving</p>
+                <p class="delayed">&Eacute;&eacute;n Plone in vormgeving</p>
+                <img class="delayed" style="position: absolute; right: 2.5%; top: 12.5%; height: 95%;" src="img/wow/diazo.png" />
             </section>
             <section class="slide">
                 <h2>Wat is zo bijzonder?</h2>
-                <p class="delayed">
-                    Met 2 bestanden (regels en html blauwdruk) kun je HTML van  
-                    alle gebruikte templates aanpassen zonder &eacute;&eacute;n 
-                    enkel plone bestand te wijzingen!
-                </p>
-                <p class="delayed">Voordelen:</p>
-                <ul>
+                <ul class="large">
                     <li class="delayed">
-                        Structurele aanpassingen opeens makkelijk toe te passen
+                        Met de HTML blauwdruk en vulregels kun je de 
+                        volledige vormgeving van Plone aanpassen zonder 
+                        &eacute;&eacute;n enkel Plone bestand te wijzingen!
                     </li>
                     <li class="delayed">
-                        Migratie gemak, maximaal 2 bestanden bijwerken
-                    </li>
-                    <li class="delayed">
-                        Theme HTML structuur is losgekoppeld van het CMS
+                        Theme HTML structuur en Vormgeving is losgekoppeld van 
+                        het CMS
                     </li>
                 </ul>
             </section>
@@ -188,7 +192,7 @@
                 <ul>
                     <li class="delayed">
                         De content regels werken op basis van CSS kennis, 
-                        waardoor front-enders makkelijk instappen als Plone 
+                        waardoor Front-enders makkelijk instappen als Plone 
                         themer. <br />
                         (Plone ontwikkeling heeft een stijle leercurve)
                     </li>
@@ -201,10 +205,32 @@
                     </li>
                     <li class="delayed">
                         Je kan een ontwerp bureau makkelijker HTML en CSS laten
-                        aanleveren, zoder dat je het weer helemaal moet 
+                        aanleveren, zonder dat je het weer helemaal moet 
                         herschrijven.
                     </li>
                 </ul>
+            </section>
+        </section>
+        <section>
+            <header class="slide">
+                <h1>Hoe ziet het er uit</h1>
+            </header>
+            <section class="slide">
+                <h2>HTML Blauwdruk</h2>
+                <p>
+                    <a href="file:///Volumes/THijs/Projects/Aptana/wow/index.html">fullscreen</a> | 
+                    <a href="view-source:file:///Volumes/THijs/Projects/Aptana/wow/index.html">source</a>
+                </p>
+                <h2>Vulregels</h2>
+                <p>
+                    <a href="view-source:file:///Volumes/THijs/Projects/Aptana/wow/rules.xml">source</a>
+                </p>
+                <h2>Resultaat</h2>
+                <p>
+                    <a href="http://127.0.0.1:9080/Plone">Plone</a> |
+                    <a href="http://localhost:9080/Plone">Plone in vormgeving</a> | 
+                    <a href="view-source:http://localhost:9080/Plone">source</a>
+                </p>
             </section>
         </section>
         <section>
